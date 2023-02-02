@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Hydrogen/static/css/main.9e4ffa78.css",
+    "main.js": "/Hydrogen/static/js/main.edf9f87b.js",
+    "static/media/work3.jpg": "/Hydrogen/static/media/work3.81c5c3d05f21e68acf07.jpg",
+    "static/media/work2.png": "/Hydrogen/static/media/work2.7762448ad0372a1b3ee9.png",
+    "static/media/logo1.svg": "/Hydrogen/static/media/logo1.f92f7f975edd9a7b0b7e2e6d2f67564c.svg",
+    "static/media/work1.jpg": "/Hydrogen/static/media/work1.a5e99c48f65c0f16b2ef.jpg",
+    "static/media/logo3.svg": "/Hydrogen/static/media/logo3.d3a8ea50d4adaa0e5f218955721cbda3.svg",
+    "static/media/logo4.svg": "/Hydrogen/static/media/logo4.53e39bb0311525b4a66711f2b1af17f7.svg",
+    "static/media/logo2.svg": "/Hydrogen/static/media/logo2.815c066390cfb288c48150b63344a191.svg",
+    "index.html": "/Hydrogen/index.html",
+    "main.9e4ffa78.css.map": "/Hydrogen/static/css/main.9e4ffa78.css.map",
+    "main.edf9f87b.js.map": "/Hydrogen/static/js/main.edf9f87b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e4ffa78.css",
+    "static/js/main.edf9f87b.js"
+  ]
+}
