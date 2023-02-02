@@ -1,0 +1,202 @@
+.Home {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.tile > h1 {
+  text-shadow: none !important;
+}
+
+.Home > a:visited {
+  color: black;
+}
+
+.tile {
+  border: 1px solid black;
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: min(1.5vw, 30px);
+}
+
+.tile:hover {
+  background-color: rgb(255, 71, 71);
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 30%;
+  transition: all 0.5s;
+  background-color: black;
+  color: white;
+  border: none !important;
+  cursor: pointer;
+}
+
+.logo:hover {
+  background-color: black;
+}
+
+.work {
+  width: 65vw;
+  height: 35vh;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+}
+
+.connect {
+  width: 35vw;
+  height: 65vh;
+  right: 0;
+  top: 0;
+  transition: all 0.5s;
+}
+
+.about {
+  width: 35vw;
+  height: 65vh;
+  left: 0;
+  bottom: 0;
+  transition: all 0.5s;
+}
+.community {
+  width: 65vw;
+  height: 35vh;
+  right: 0;
+  bottom: 0;
+  transition: all 0.5s;
+}
+
+.wider-taller {
+  width: 75vw !important;
+  height: 45vh !important;
+  transition: all 0.5s;
+}
+
+.thinner-taller {
+  width: 25vw !important;
+  height: 75vh !important;
+  transition: all 0.5s;
+}
+
+.wider-shorter {
+  width: 45vw !important;
+  height: 55vh !important;
+  transition: all 0.5s;
+}
+
+.thinner-shorter {
+  width: 55vw !important;
+  height: 25vh !important;
+  transition: all 0.5s;
+}
+
+.logo-br {
+  left: 60%;
+  top: 60%;
+  transition: all 0.5s;
+}
+
+.logo-bl {
+  left: 40%;
+  top: 60%;
+  transition: all 0.5s;
+}
+
+.logo-tl {
+  left: 40%;
+  top: 40%;
+  transition: all 0.5s;
+}
+
+.logo-tr {
+  left: 60%;
+  top: 40%;
+  transition: all 0.5s;
+}
+
+.wider-taller-vertical {
+  width: 45vw !important;
+  height: 75vh !important;
+  transition: all 0.5s;
+}
+
+.thinner-taller-vertical {
+  width: 55vw !important;
+  height: 45vh !important;
+  transition: all 0.5s;
+}
+
+.wider-shorter-vertical {
+  width: 75vw !important;
+  height: 25vh !important;
+  transition: all 0.5s;
+}
+
+.thinner-shorter-vertical {
+  width: 25vw !important;
+  height: 55vh !important;
+  transition: all 0.5s;
+}
+
+.logo-big {
+  height: 50%;
+  width: 50%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .Home {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .tile {
+    width: 100vw !important;
+    height: 20vh !important;
+    position: relative;
+    transform: none;
+  }
+  .logo {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .mainLogo {
+    font-size: 10vw !important;
+  }
+}
+
+.mainLogo {
+  font-size: 4vw;
+  transform-style: preserve-3d;
+  animation-name: flipping;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  text-shadow: none;
+}
+
+@keyframes flipping {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}

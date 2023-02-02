@@ -1,0 +1,102 @@
+.WorkPage {
+  background-color: rgb(255, 71, 71);
+  position: relative;
+}
+
+.workContents {
+  background-color: rgb(255, 71, 71);
+}
+
+.work-title {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 0;
+  border-bottom: 3px solid white;
+}
+
+.work-title > h1 {
+  font-size: 8vw;
+  font-weight: 800;
+  text-shadow: 5px 5px black 5px;
+}
+
+.work-item {
+  height: fit-content;
+  display: flex;
+  height: 100vh;
+}
+
+.work-left {
+  height: 100%;
+  width: 50vw;
+}
+
+.work-left > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.work-right {
+  width: 50vw;
+  text-align: start;
+  padding: 20px;
+  font-family: "IBM Plex Mono", monospace;
+  overflow-y: auto;
+}
+
+.work-right > h2 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.work-right > h3 {
+  margin-bottom: 40px;
+}
+
+.works {
+  display: flex;
+  overflow-x: hidden;
+  transition: all 1s;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+.works::-webkit-scrollbar {
+  display: none;
+}
+
+.buttons {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+.buttons > button {
+  border: 3px solid black;
+  margin: 3px;
+}
+
+.buttons > button:hover {
+  background-color: black;
+  color: white;
+  border: 3px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+  .work-item {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .work-left {
+    width: 100vw;
+    height: 60vh;
+  }
+
+  .work-right {
+    width: 100vw;
+    padding: 20px;
+  }
+}

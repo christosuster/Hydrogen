@@ -1,0 +1,64 @@
+.CommunityPage {
+  background-color: rgb(255, 71, 71);
+  position: relative;
+}
+
+.communityContent {
+  height: auto;
+  min-height: 100%;
+  background-color: rgb(255, 71, 71);
+  width: 100%;
+  padding: min(30px, 5vw);
+  text-align: start;
+}
+
+.communityHeader > h1 {
+  text-align: center !important;
+  margin-bottom: 30px;
+  font-size: min(12vw, 200px);
+}
+
+.communityHeader {
+  margin-bottom: 60px;
+}
+
+.sectionContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.sectionContainerLeft {
+  margin-right: 30px;
+}
+
+.sectionContainerRight > h3 {
+  font-weight: 600;
+}
+
+.blogs {
+  align-items: flex-start;
+}
+
+.blog {
+  background-color: white;
+  border: 5px solid rgb(255, 71, 71);
+  padding: 20px;
+}
+
+.blog > h3 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.blog > a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.blog > p > a {
+  color: #a30000;
+  text-decoration: none;
+  font-weight: 600;
+}

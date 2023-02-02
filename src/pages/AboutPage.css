@@ -1,0 +1,112 @@
+.AboutPage {
+  background-color: rgb(255, 71, 71);
+}
+
+.title {
+  font-size: 10vw;
+  font-weight: 800;
+}
+
+.contents {
+  background-color: rgb(255, 71, 71);
+  padding: min(50px, 5vw);
+}
+
+.header {
+  font-family: "IBM Plex Mono", monospace;
+  margin-bottom: 30px;
+}
+
+.team {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.member {
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  border: 5px solid rgb(255, 71, 71);
+  margin-bottom: 50px;
+}
+
+.member > h3 {
+  width: 100%;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.position {
+  font-size: 1.2rem;
+}
+
+.member img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photoContainer {
+  width: min(95%, 350px);
+  aspect-ratio: 1/1;
+  margin-bottom: 10px;
+  border: 3px solid black;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+  margin-top: 50px;
+}
+
+.member::after {
+  content: "";
+  border-bottom: 3px solid black;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+.info {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  border: 3px solid white;
+  transition: all 1s;
+}
+
+.info > p {
+  font-size: 2vh;
+  margin: 10% 0;
+  line-height: 1;
+}
+
+.service > li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.4rem;
+  padding: 5px;
+  line-height: 1.2;
+}
+
+.service > svg {
+  margin-right: 20px;
+  font-size: 2rem;
+  stroke-width: 3;
+}
+
+.about-text > p {
+  font-size: 1.2rem;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,77 @@
+.ConnectPage {
+  background-color: rgb(255, 71, 71);
+  position: relative;
+  align-items: center;
+}
+
+.connectContent {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+}
+
+.formSection {
+  text-align: start;
+  padding: 9vh 9vw !important;
+  box-sizing: border-box;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.formGroup > input {
+  border: 3px solid black;
+}
+
+.formGroup > textarea {
+  border: 3px solid black;
+}
+
+.formBtn {
+  border: 3px solid black;
+}
+
+.formBtn:hover,
+.formBtn:active {
+  border: 3px solid white;
+  color: white;
+  background-color: black;
+}
+
+.socialSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  height: 100vh;
+}
+
+.icon {
+  margin: 30px;
+  color: white;
+}
+
+@media only screen and (max-width: 992px) {
+  .socialSection {
+    height: auto;
+  }
+
+  .socialIcons {
+    display: flex;
+  }
+}
+
+.icon:hover {
+  color: red;
+}
+
+.footer > h6 {
+  color: white;
+}
