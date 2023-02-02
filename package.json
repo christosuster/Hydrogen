@@ -1,7 +1,7 @@
 {
-  "homepage": "http://christosuster.github.io/Hydrogen",
   "name": "hydrogen",
   "version": "0.1.0",
+  "homepage": "https://christosuster.github.io/Hydrogen",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -10,7 +10,6 @@
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.3",
     "framer-motion": "^8.5.3",
-    "gh-pages": "^5.0.0",
     "gsap": "^3.11.4",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
@@ -21,11 +20,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -45,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
