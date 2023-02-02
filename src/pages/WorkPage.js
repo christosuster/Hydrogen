@@ -7,13 +7,15 @@ import pix2 from "../images/work2.png";
 import pix3 from "../images/work3.jpg";
 import { ArrowLeft, ArrowRight } from "react-bootstrap-icons";
 function WorkPage() {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  let screenSize = window.innerWidth;
+  const [windowWidth, setWindowWidth] = useState(
+    document.documentElement.clientWidth
+  );
+  let screenSize = document.documentElement.clientWidth;
 
   useEffect(() => {
-    console.log(windowWidth);
+    console.log(document.documentElement.clientWidth);
     const handleWindowResize = () => {
-      setWindowWidth(window.innerWidth);
+      setWindowWidth(document.documentElement.clientWidth);
     };
 
     window.addEventListener("resize", handleWindowResize);

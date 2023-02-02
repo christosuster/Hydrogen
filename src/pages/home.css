@@ -6,10 +6,16 @@
 
 .tile > h1 {
   text-shadow: none !important;
+  color: black;
 }
 
 .Home > a:visited {
   color: black;
+}
+
+.Home > a {
+  color: black;
+  text-decoration: none;
 }
 
 .tile {

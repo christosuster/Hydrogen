@@ -75,3 +75,8 @@
 .footer > h6 {
   color: white;
 }
+
+.formTitle {
+  font-size: max(4vw, 40px);
+  font-weight: 800;
+}

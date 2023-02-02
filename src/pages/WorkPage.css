@@ -10,37 +10,38 @@
 .work-title {
   font-family: "Montserrat", sans-serif;
   padding: 10px 0;
-  border-bottom: 3px solid white;
 }
 
 .work-title > h1 {
-  font-size: 8vw;
+  font-size: max(8vw, 50px);
   font-weight: 800;
-  text-shadow: 5px 5px black 5px;
 }
 
 .work-item {
   height: fit-content;
   display: flex;
   height: 100vh;
-  background-color: white;
+  max-width: 100%;
+  padding: 30px;
 }
 
 .work-left {
   height: 100%;
   width: 50vw;
+  padding: min(50px, 4vw);
 }
 
 .work-left > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border: 3px solid white;
 }
 
 .work-right {
   width: 50vw;
   text-align: start;
-  padding: 20px;
+  padding: min(50px, 4vw);
   font-family: "IBM Plex Mono", monospace;
   overflow-y: auto;
   -ms-overflow-style: none;
@@ -98,6 +99,7 @@
   .work-left {
     width: 100vw;
     height: 60vh;
+    max-width: 100%;
   }
 
   .work-right {
@@ -105,5 +107,6 @@
     padding: 20px;
     overflow-y: auto;
     height: 100vh;
+    max-width: 100%;
   }
 }
